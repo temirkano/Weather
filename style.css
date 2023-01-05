@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://www.travelalaska.com/sites/default/files/2021-12/Plan%20Your%20Trip_Weather_Hero_%28ATIA%2C%20Michael%20DeYoung%29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgb(98, 137, 244); */
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.child {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input {
+    height: 30px;
+    border: 2px solid rgb(6, 29, 85);
+}
+input:focus {
+    outline: none;
+}
+
+button {
+    height: 30px;
+    display: flex;
+    background-color: rgb(6, 29, 85);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+button:hover {
+    background-color: #200a62;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(6, 29, 85);
+}
+
+.content {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    gap: 10px;
+}
+
+
+#searchBtn {
+    margin-left: 5px;
+}
+
+#town {
+    background: rgb(251, 250, 250);
+}
+
+@media (max-width: 14400px) {
+    .container {
+      width: 40%;
+    }
+  }
+  @media (max-width: 1128px) {
+    .container {
+      width: 40%;
+    }
+  }
+  @media (max-width: 850px) {
+    .container {
+      width: 50%;
+    }
+  }
+  @media (max-width: 680px) {
+    .container {
+      width: 60%;
+    }
+  }
+  @media (max-width: 567px) {
+    .container {
+      width: 70%;
+    }
+  }
+  @media (max-width: 485px) {
+    .container {
+      width: 90%;
+    }
+  }
